@@ -1,4 +1,5 @@
 # searching an element X in a array using Linear search
+# Time Complexity = O(n) | Space Complexity = O(1)
 
 def Linear_search(arr,n,x):
     for i in range(0,n):   # searching x element at every index in arr
