@@ -1,4 +1,5 @@
-# searching an element X in array using Binary search
+# Searching an element X in array using Binary search
+# Method used is Recursion
 
 def binary_search(arr,start,end,x):
     if start <= end:
@@ -12,6 +13,7 @@ def binary_search(arr,start,end,x):
     return -1       # -1 implies not found
 
 
+# Driver's Code
 arr = [10,20,30,40,50]
 x = 41
 
