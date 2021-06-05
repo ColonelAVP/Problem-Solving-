@@ -1,5 +1,6 @@
 # Searching an element X in array using Binary search
 # Method used is Recursion
+# Time Complexity = O(logn) | Space Complexity = O(1)
 
 def binary_search(arr,start,end,x):
     if start <= end:
