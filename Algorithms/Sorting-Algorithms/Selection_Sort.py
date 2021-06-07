@@ -2,9 +2,10 @@
 # Time Complexity = O(n^2), Space Complexity = O(1)
 
 def selection_sort(arr):
-    for i in range(0, len(arr)):
+    n = len(arr)
+    for i in range(0, n):
         minimum_index = i
-        for j in range(i+1, len(arr)):
+        for j in range(i+1, n):
             if arr[minimum_index] > arr[j]:
                 minimum_index = j
         arr[i],arr[minimum_index] = arr[minimum_index],arr[i]
