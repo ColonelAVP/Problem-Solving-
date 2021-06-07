@@ -2,7 +2,8 @@
 #Time Complexity = O(n^2) and Space Complexity = O(1)
 
 def insertion_sort(arr):
-    for i in range(1,len(arr)):
+    n = len(arr)
+    for i in range(1,n):
         temp = arr[i]
         j = i - 1
         while j >= 0 and arr[j] > temp:
