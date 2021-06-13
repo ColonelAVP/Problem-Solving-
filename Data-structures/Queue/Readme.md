@@ -1,1 +1,1 @@
-# All problrms related to Queue Data strcuture
+# All problems related to Queue Data strcuture
