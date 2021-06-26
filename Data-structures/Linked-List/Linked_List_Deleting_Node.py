@@ -34,12 +34,20 @@ class LinkedList:
         temp.next = None
 
     # fn to delete a given node
-    def delete_at_given_pos(self,key):
-        temp = self.head
-        while temp.next.data != key:
-            temp = temp.next
-        next = temp.next.next
-        temp.next = next
+    def delete_given_node(self,pos):
+        if pos == 0:
+            cur = self.head
+            self.head = cur.next
+        else:
+            counter = 0
+            current = self.head
+            while counter < pos-1:
+                current = current.next
+                counter += 1
+            next = current.next.next
+            current.next.next = None
+            current.next = next
+        return self.head
 
 
 # Driver's Code
@@ -55,7 +63,7 @@ print("Actual Linked List")
 LL.print_llist()
 
 print("\nLinked List after Deleting a given node")
-LL.delete_at_given_pos(40)
+LL.delete_given_node(2)
 LL.print_llist()
 
 print("\nLinked list after deleting first node")
