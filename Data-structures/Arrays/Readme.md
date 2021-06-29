@@ -4,3 +4,4 @@
 * [Negatives-at-start](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Negatives_at_Start.py) 
 * [kth-smallest-largest](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Kth_Smallest_largest.py)
 * [Array-Rotation](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/ArrayRotation_reverse.py)
+* [Min_Max](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Min_Max.py)
