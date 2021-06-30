@@ -1,4 +1,5 @@
-# fn to find maximum num in unsorted array
+# fn to find maximum & minimum num in unsorted array
+# Time Complexity = o(n) & Space Complexity = O(1)
 
 def max_number(arr):
     n = len(arr)
@@ -8,7 +9,6 @@ def max_number(arr):
             largest_number = arr[i]
     return largest_number
 
-# fn to find minimum num in unsorted array
 def min_number(arr):
     n = len(arr)
     smallest_number = arr[0]
@@ -21,7 +21,3 @@ def min_number(arr):
 arr = [10,7,1,13,8,32]
 print(max_number(arr))
 print(min_number(arr))
-
-
-
-
