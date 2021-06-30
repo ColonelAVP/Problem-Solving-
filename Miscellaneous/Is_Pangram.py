@@ -1,5 +1,5 @@
 # fn to check if a string is Pangram or not
-
+# Time Complexity = O(n) & Space Complexity = O(1)
 def ispangram(string1):
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     for char in alphabet:
@@ -14,5 +14,3 @@ if ispangram(string1):
     print("Given string is pangram")
 else:
     print("Given string is not a pangram")
-
-
