@@ -7,10 +7,12 @@ def ispangram(string1):
             return False
     return True
 
+# Driver's Code
 string1 = "abcdefghijklmnopqrstuvxyz"
-ispangram(string1)
 
 if ispangram(string1):
-    print("")
+    print("Given string is pangram")
+else:
+    print("Given string is not a pangram")
 
 
