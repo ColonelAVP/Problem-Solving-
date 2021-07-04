@@ -7,3 +7,4 @@
 * [Min-Max](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Min_Max.py)
 * [Segregate-Even-Odd](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Segregate_Even_Odd.py)
 * [MaxSubarraySum-Kadane's Algo](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Kadane_Algo.py)
+* [Replace-Element-Multiplication_Prev_Next](https://github.com/ColonelAVP/Problem-Solving-/blob/master/Data-structures/Arrays/Multiple_Prev_Next.py)
